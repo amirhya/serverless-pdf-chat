@@ -2,6 +2,7 @@ import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 import Loading from "../../public/loading-dots.svg";
 import { Conversation } from "../common/types";
 
+
 interface ChatMessagesProps {
   conversation: Conversation;
   messageStatus: string;
