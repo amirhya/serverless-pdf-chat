@@ -4,7 +4,6 @@ from botocore.config import Config
 import shortuuid
 from aws_lambda_powertools import Logger
 
-
 BUCKET = os.environ["BUCKET"]
 REGION = os.environ["REGION"]
 
