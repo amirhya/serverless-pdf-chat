@@ -6,6 +6,7 @@ import Layout from "./routes/layout";
 import Documents from "./routes/documents";
 import Chat from "./routes/chat";
 
+
 Amplify.configure({
   Auth: {
     userPoolId: import.meta.env.VITE_USER_POOL_ID,
